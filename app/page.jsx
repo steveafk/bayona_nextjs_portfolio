@@ -11,7 +11,7 @@ const HomePage = () => {
           Steve Kurt Bayona
         </h1>
         <h2 className="text-2xl md:text-3xl font-medium mb-6">
-          Full-Stack Developer
+          Front-End Developer
         </h2>
 
         {/* PROFILE IMAGE*/}

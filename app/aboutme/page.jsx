@@ -17,7 +17,7 @@ const AboutMe = () => {
             className="rounded-full border-4 border-gray-600 shadow-lg"
           />
           <h1 className="text-3xl font-bold mt-4">Steve Kurt Bayona</h1>
-          <h2 className="text-lg font-medium mt-2">Full-Stack Developer</h2>
+          <h2 className="text-lg font-medium mt-2">Front-End Developer</h2>
 
           <p className="mt-4 text-gray-200 text-center">
             I am passionate about building modern and responsive web applications that combine
@@ -63,7 +63,7 @@ const AboutMe = () => {
         {/* RIGHT COLUMN */}
         <div className="flex flex-col gap-6 md:w-2/3">
           {[
-            "I am an enthusiastic full-stack developer committed to creating cutting-edge, user-friendly, and responsive online applications. During my college years, I became fascinated with using technology to solve real-world problems, which led me to pursue a career in web development.",
+            "I am an enthusiastic front-end developer committed to creating cutting-edge, user-friendly, and responsive online applications. During my college years, I became fascinated with using technology to solve real-world problems, which led me to pursue a career in web development.",
             "I've worked on a variety of projects throughout the years, from comprehensive task management apps to dynamic portfolio websites. My expertise of scalable architecture, clean code, and user-friendly UI/UX design has been influenced by each project.",
             "My approach to growth places a strong emphasis on teamwork, flexibility, and lifelong learning. I place a high importance on producing maintainable code, adhering to best practices, and keeping up with the newest technology. My proficiency with React, Next.js, Tailwind CSS, Node.js, and TypeScript enables me to effectively develop front-end and back-end solutions.",
             "I have a strong commitment to personal development and curiosity outside of coding. I like participating in coding groups, learning new programming languages, and investigating cutting-edge technology. When I'm not working, I like to travel, take pictures of cities, and partake in artistic pursuits that motivate me.",
