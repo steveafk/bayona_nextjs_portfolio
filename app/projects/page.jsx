@@ -2,32 +2,28 @@ import Image from "next/image";
 
 const projectsData = [
   {
-    // MY FAV PLACES CARD
     title: "My Favorite Places",
     description:
-      "This app allows users to keep a personalized collection of their favorite places.Users can input any location they like, add notes, and even take and store pictures. It’s a simple and interactive way to remember and share special spots, whether it’s a cozy café, a scenic park, or a hidden gem in the city.",
+      "This app allows users to keep a personalized collection of their favorite places.Users can input any location they like, add notes, and even take and store pictures.",
     technologies: ["Flutter", "Dart", "Firebase"],
     github: "https://github.com/steveafk/myfaveplaces",
     live: "http://localhost:53824/",
-    image: "/myfaveplaces.png",
+    image: "/myfaveplaces.png", // FIXED
   },
   {
-    // SHOPPING LIST CARD
     title: "Shopping List",
-    description:
-      "This app helps users organize their shopping efficiently. Users can create a list of items they need and easily select the ones they want to purchase. It’s a practical and user-friendly tool for planning trips to the store, ensuring nothing is forgotten, and making shopping more organized and stress-free.",
+    description: "This app helps users organize their shopping efficiently.",
     technologies: ["Flutter", "Dart", "Firebase"],
     github: "https://github.com/steveafk/shopping_list",
     live: "http://localhost:52442/",
-    image: "/shopping_list.png",
+    image: "/shopping_list.png", // FIXED
   },
   {
-    // PERSONAL TRAINER CARD
     title: "Personal Trainer",
     description:
-      "A web application for managing gym memberships, wellness tracking, and activity scheduling. It supports dual-level membership and detailed activity analytics.",
+      "A web application for managing gym memberships and wellness tracking.",
     technologies: [".Net Framework", "C#", "SQL Server"],
-    github: "https://github.com/yourusername/personal-trainer-app",
+    github: "https://github.com/steveafk/PERSONAL_TRAINER_INC",
     live: "https://personal-trainer-app.vercel.app",
     image: "/personal_trainer.png",
   },
@@ -42,15 +38,16 @@ const Projects = () => {
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-500 rounded-2xl shadow-lg p-6 flex flex-col h-full"
+            className="bg-gray-500 rounded-2xl shadow-lg p-6 flex flex-col"
           >
-            {/* PARA MA EDIT SIZE OF THE CARD */}
-            <div className="relative w-full h-[450px] md:h-[500px] mb-4">
+            {/* Image fully visible, no cropping */}
+            <div className="w-full mb-4">
               <Image
                 src={project.image}
                 alt={project.title}
-                fill
-                className="rounded-xl object-cover"
+                width={800}
+                height={500}
+                className="rounded-xl object-contain w-full h-auto"
               />
             </div>
 

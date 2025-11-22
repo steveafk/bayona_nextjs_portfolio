@@ -17,7 +17,7 @@ const HomePage = () => {
         {/* PROFILE IMAGE*/}
         <div className="mt-6">
           <Image
-            src="/pdiddy.jpg"
+            src="/steveprofile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"

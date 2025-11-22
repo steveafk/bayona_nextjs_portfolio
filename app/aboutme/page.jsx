@@ -10,7 +10,7 @@ const AboutMe = () => {
         {/* LEFT COLUMN */}
         <div className="bg-gray-700 rounded-xl shadow-lg p-6 flex flex-col items-center text-center md:w-1/3">
           <Image
-            src="/pdiddy.jpg"
+            src="/steveprofile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"
